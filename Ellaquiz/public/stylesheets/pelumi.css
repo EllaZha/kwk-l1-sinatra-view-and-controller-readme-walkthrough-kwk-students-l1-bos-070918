@@ -1,0 +1,85 @@
+body {
+    background:linear-gradient(#6600FF,#CC00FF,#99d6ff,#1FC3F9,#0099ff,#005CE6,#6600FF,#CC00FF,#F0B3FF)
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Times New Roman;
+}
+
+p {color: black;
+  font-weight:bold;
+  font-size: 21px;
+  font-family: 'Markazi Text', serif;
+}
+
+p1 {
+    color: black;
+    font-family: verdana;
+    font-size: 20px;
+    
+}
+.pcaption{
+  padding-left:300px;
+  padding-right:300px;
+}
+
+
+.grad {
+    background: linear-gradient(#ff0066, #7340bf);
+}
+.rcorners1 {
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px; 
+    width: 470px;
+    height: 25px; 
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6600FF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #000000}
+
+.button:active {
+  background-color: #6600FF;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

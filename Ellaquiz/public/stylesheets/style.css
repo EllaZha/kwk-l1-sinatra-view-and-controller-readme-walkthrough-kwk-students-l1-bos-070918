@@ -1,0 +1,115 @@
+.title{
+  font-family: 'Fredericka the Great', cursive;
+  font-size:40px;
+  color:#cc0000;
+}
+.text{
+  font-family: 'Lateef', cursive;
+  font-size:20px;
+}
+.caption{
+  font-family: 'Fredericka the Great', cursive;
+  color:#330000;
+  font-size:17px;
+}
+.facemask_title{
+  font-family: 'Lateef', cursive;
+  font-size:20px
+}
+.questions{
+  font-family: 'Abril Fatface', cursive;
+}
+.main_title{
+  font-family: 'EB Garamond', serif; 
+   border-radius: 25px;
+    background: #ffffff;
+    padding: 20px; 
+    width: 470px;
+    height: 36px; 
+}
+.main_caption{
+  font-family: 'Old Standard TT', serif;
+  padding-right: 380px;
+  padding-left: 380px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ff0066;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.grad {
+    background: linear-gradient(#ff0066, #7340bf);
+}
+.rcorners1 {
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px; 
+    width: 470px;
+    height: 25px; 
+}
+.ybutton {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #cc0000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.ybutton:hover {background-color: #cc0000}
+
+.ybutton:active {
+  background-color: #cc0000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.rcorners2 {
+    border-radius: 15px;
+    background: #ffffff;
+    padding: 10px; 
+    width: 100px;
+    height: 20px; 
+}
+#quest{font-family: 'Abril Fatface', cursive;
+font-size:17px;}
+
