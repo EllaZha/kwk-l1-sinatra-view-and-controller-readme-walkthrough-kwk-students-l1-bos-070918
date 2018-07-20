@@ -11,6 +11,10 @@ class App < Sinatra::Base
     erb :index
   end 
   
+  get '/puns' do 
+    erb :twitterpuns
+  end 
+  
   post  '/results' do
    answers = params.values
    @total = 0
